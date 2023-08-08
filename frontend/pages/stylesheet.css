@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Bubbly';
+    src: url(../fonts/RockSalt-Regular.ttf) format('truetype');
+}
+
+
+
+.body1 {
+    font-style: italic;
+    color: white;
+    font-family: 'Bubbly';
+    margin: 5px;
+
+
+}
+
+
+.containergrid {
+    display: grid;
+}
+
+.containerflex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.imagesleft {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.paragraphright {
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    font-family: 'Bubbly';
+    margin: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.imagesright {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: 30px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.paragraphleft {
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    font-family: 'Bubbly';
+    margin: 30px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.headercenter{
+    display: flex;
+    justify-content: center;
+}
