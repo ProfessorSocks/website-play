@@ -9,42 +9,45 @@
     font-style: italic;
     color: white;
     font-family: 'Bubbly';
-    margin: 5px;
 
 
 }
 
+.image-sizer {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    text-align: center;
+}
+#resize-image {
+    max-width: 90%; /* Ensures the image scales within the container */
+    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+}
 
 .containergrid {
     display: grid;
 }
 
-.containerflex{
+.containerflex {
     display: flex;
     justify-content: space-around;
 }
 
 
-.imagesleft {
+.images {
     border-style: solid;
     border-color: white;
     border-width: 5px;
-    margin: 30px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 90%; /* Ensures the image scales within the container */
+    height: auto;
 }
 
-.paragraphright {
+.paragraph {
     font-style: italic;
     font-size: 50px;
     color: white;
     font-family: 'Bubbly';
     margin: 30px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-
 }
 
 .imagesright {
@@ -67,7 +70,7 @@
 
 }
 
-.headercenter{
+.headercenter {
     display: flex;
     justify-content: center;
 }
