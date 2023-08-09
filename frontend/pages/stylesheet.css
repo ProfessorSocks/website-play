@@ -14,12 +14,16 @@
 }
 
 .image-sizer {
-    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    max-width: 100%;
+    /* Ensures the image doesn't exceed its container */
     text-align: center;
 }
+
 #resize-image {
-    max-width: 90%; /* Ensures the image scales within the container */
-    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+    max-width: 90%;
+    /* Ensures the image scales within the container */
+    height: auto;
+    /* Automatically adjusts the height to maintain aspect ratio */
 }
 
 .containergrid {
@@ -38,16 +42,21 @@
     border-width: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 90%; /* Ensures the image scales within the container */
+    max-width: 100%;
+    /* Ensures the image scales within the container */
     height: auto;
 }
 
 .paragraph {
     font-style: italic;
-    font-size: 50px;
+    font-size: xx-large;
     color: white;
     font-family: 'Bubbly';
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    /* Ensures the image scales within the container */
+    height: auto;
 }
 
 .imagesright {
@@ -73,4 +82,24 @@
 .headercenter {
     display: flex;
     justify-content: center;
+}
+
+#resize-text {
+    font-size: 50px;
+    /* Initial font size */
+}
+
+/* Define media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+    #resize-text {
+        font-size: 30px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #resize-text {
+        font-size: 20px;
+        /* Adjust font size for even smaller screens */
+    }
 }
