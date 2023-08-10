@@ -50,20 +50,3 @@ window.addEventListener("resize", resizeText);
 // Initial call to resizeText when the page loads
 window.addEventListener("load", resizeText);
 
-function resizeCalendar() {
-    const calendarIframe = document.getElementById("calendar-iframe");
-    const container = calendarIframe.parentElement;
-
-    // Calculate the new width and height based on the container's width
-    const containerWidth = container.offsetWidth;
-    const newHeight = containerWidth * 0.6; // Adjust the scaling factor as needed
-
-    // Apply the new height to the calendar iframe
-    calendarIframe.style.height = `${newHeight}px`;
-}
-
-// Call the resizeCalendar function when the window is resized
-window.addEventListener("resize", resizeCalendar);
-
-// Initial call to resizeCalendar when the page loads
-window.addEventListener("load", resizeCalendar);
