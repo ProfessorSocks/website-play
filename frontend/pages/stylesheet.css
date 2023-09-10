@@ -94,6 +94,8 @@
     height: 700px;
 }
 
+.switchToRight
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     #calendar-iframe {
@@ -107,6 +109,10 @@
     #textbox1{
         width: 45%;
         margin: 5px;
+    }
+    .switchToRight{
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
